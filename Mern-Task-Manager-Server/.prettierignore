@@ -1,0 +1,42 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# build output
+dist
+build
+coverage
+
+# environment files
+.env
+.env.*
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# cache
+.cache
+.vite
+.next
+.turbo
+
+# lock files (optional – remove if you want them formatted)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# generated files
+*.min.js
+*.min.css
+
+# media
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.mp4
